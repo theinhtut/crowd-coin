@@ -1,0 +1,8 @@
+{
+  "extends": "next",
+  "rules": {
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "no-unused-vars": "warn",
+    "space-infix-ops": ["warn", { "int32Hint": false }]
+  }
+}
